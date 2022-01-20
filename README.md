@@ -79,9 +79,7 @@ Ill Be Seeing You, Part 1
 Ill Be Seeing You, Part 2
 </pre>
 
-## Future
+## To Do
 
 Customize how the perser strips whitespace and characters from the table
 data.
-
-======----====----====----====----====----====----====----====----======
