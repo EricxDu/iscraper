@@ -12,12 +12,12 @@ a Python module to scrape information from HTML tables.
 Table Scraper can download the HTML from any URL and save it for later, 
 so you don't have to query the website every time you parse the file.
 
-- python3 scraper.py --url="https://en.wikipedia.org/wiki/List_of_Cheers_episodes" --save-html=page.html
+- <code>python3 scraper.py --url="https://en.wikipedia.org/wiki/List_of_Cheers_episodes" --save-html=page.html</code>
 
 To do anything with the data, the page must have at least one "table" 
 tag and you must provide a table number and a column number to lookup.
 
-- python3 scraper.py --html=page.html --table=1 --column=1 --print-data
+- <code>python3 scraper.py --html=page.html --table=1 --column=1 --print-data</code>
 
 <pre>
 Give Me a Ring Sometime
@@ -46,13 +46,13 @@ Showdown, Part 2
 
 You can save the table data to a file with one line per field found.
 
-- python3 scraper.py --html=page.html --table=1 --column=1 --save-data=filename.txt
+- <code>python3 scraper.py --html=page.html --table=1 --column=1 --save-data=filename.txt</code>
 
 <pre>
 tabscraps: saving fields to file filename.txt
 </pre>
 
-- cat filename.txt
+- <code>cat filename.txt</code>
 
 <pre>
 Give Me a Ring Sometime
