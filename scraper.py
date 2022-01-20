@@ -27,6 +27,7 @@ def main():
                 print(line)
         elif arg[0:12] == "--save-data=":
             filename = arg[12:]
+            print("tabscraps: saving fields to file", filename)
             with open(filename, "w") as file:
                 for line in get_data(text, tnum, cnum):
                     file.write(line + "\n")
@@ -59,7 +60,7 @@ def get_data(text, tnum, cnum, patterns=(r'\[[^\]]*\]',)):
                             string = string.replace("\n", "")
                             for pattern in patterns:
                                 string = re.sub(pattern, '', string)
-                            cat = cat + string
+                            cat = cat + string.strip()
                         datum.append(cat)
     return datum
 
