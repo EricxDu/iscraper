@@ -78,3 +78,10 @@ Normans Conquest
 Ill Be Seeing You, Part 1
 Ill Be Seeing You, Part 2
 </pre>
+
+## Future
+
+Customize how the perser strips whitespace and characters from the table
+data.
+
+======----====----====----====----====----====----====----====----======
