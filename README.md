@@ -81,5 +81,6 @@ Ill Be Seeing You, Part 2
 
 ## To Do
 
-Customize how the perser strips whitespace and characters from the table
-data.
+- customize how the perser strips whitespace and characters from the
+  table data
+- automatically save columns to files named after column header
