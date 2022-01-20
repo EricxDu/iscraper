@@ -12,7 +12,7 @@ a Python module to scrape information from HTML tables.
 Table Scraper can download the HTML from any URL and save it for later, 
 so you don't have to query the website every time you parse the file.
 
-- python3 scraper.py --url="https://a.website.url/page_name --save-html=page.html
+- python3 scraper.py --url="https://a.website.url/page_name" --save-html=page.html
 
 To do anything with the data, the page must have at least one <table> 
 tag and you must provide a table number and a column number to lookup.
