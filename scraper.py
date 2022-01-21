@@ -5,6 +5,7 @@ import sys
 from bs4 import BeautifulSoup
 
 if len(sys.argv) < 2:
+    print("invoked:", sys.argv[0])
     print("usage:")
     print("  --url=<url>            download page at <url>")
     print("  --html=<filename>      use <filename> as page")
@@ -27,7 +28,7 @@ def main():
                 print(line)
         elif arg[0:12] == "--save-data=":
             filename = arg[12:]
-            print("tabscraps: saving fields to file", filename)
+            print("scraper: saving fields to file", filename)
             with open(filename, "w") as file:
                 for line in get_data(text, tnum, cnum):
                     file.write(line + "\n")

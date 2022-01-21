@@ -49,7 +49,7 @@ You can save the table data to a file with one line per field found.
 - <code>python3 scraper.py --html=page.html --table=3 --column=1 --save-data=filename.txt</code>
 
 <pre>
-tabscraps: saving fields to file filename.txt
+scraper: saving fields to file filename.txt
 </pre>
 
 - <code>cat filename.txt</code>
