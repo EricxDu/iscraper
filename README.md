@@ -1,6 +1,6 @@
-# Table Scraper
+# iScraper
 
-a Python module to scrape information from HTML tables.
+a Python module to scrape plain HTML from online webpages.
 
 ## Requirements
 
